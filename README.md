@@ -43,17 +43,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The main goal of this project is to mantain a trustful and GitOps-compatible approach to a full CI/CD Pipeline.
-
+The main goal of this project is to mantain a trustful and GitOps-compatible approach to a full CI/CD Pipeline.  
 Using Harness CIE and CD (both Next-Gen).
 
-I'll try my best to keep this project relevant, and independent.
+**I'll try my best to keep this project relevant, and indepentent.  **
+**Always ready for Production Deployment (Continuous Delivery).**
 
-How? By making sure that all the files required to do the FULL Software LifeCycle is here.
+### How? By making sure that all the files required to do the FULL Software LifeCycle is here.
 
 For example, that's what I have in mind for now:
 
-* Java source code;
+* Java source code, being the real src content;
 * Configuration files, where all sensitive and dynamic data are environment variables (application.properties, etc);
 * Configuration as Code;
 * Dockerfile;
