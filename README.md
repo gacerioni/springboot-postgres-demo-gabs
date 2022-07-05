@@ -59,10 +59,9 @@ For example, that's what I have in mind for now:
 * Dockerfile;
 * Kubernetes Templates;
 * Helm Chart files, and all overrides that are required to build a Helm Chart as a final artifact;
-* 
-
-
-
+* Infrastructure as Code, in case we need like an environment at runtime. Maybe for testing and then destroying it;
+* All Harness content as code, also known as CaC (Config-as-Code);
+* etc.
 
 
 <!-- GETTING STARTED -->
@@ -70,23 +69,20 @@ For example, that's what I have in mind for now:
 
 ### Prerequisites
 
-* [python3.6+](https://www.python.org/downloads/)
+* [Java 17 (SDK)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
-* A Harness account, of course!
-
-* For MacOs Users, please double-check the SSL CERT
-   ```sh
-   cd /Applications/Python\ 3.9/ # PUT YOUR PYTHON VERSION
-   ./Install\ Certificates.command
-   ```
+* A Harness Next-Gen account, of course!
 
 ### Installation and Usage
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/gacerioni/harness_utils_cg_universal_api_caller.git
-   cd harness_utils_cg_universal_api_caller
+   git clone https://github.com/gacerioni/springboot-postgres-demo-gabs.git
+   cd springboot-postgres-demo-gabs
    ```
+   
+# TODO - NOTHING IS VALID BEYOND THIS POINT!
+   
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
    ```sh
    pip install -r requirements.txt
