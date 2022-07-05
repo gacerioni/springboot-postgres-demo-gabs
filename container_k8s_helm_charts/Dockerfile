@@ -1,9 +1,11 @@
-FROM alpine:3.12
+FROM amazoncorretto:17
 
 LABEL maintainer="Gabriel Cerioni <gacerioni@gmail.com>"
 
-# BLABLABLA
+WORKDIR /
 
-#ADD go-sample-app /bin/
-# Command to run the executable
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+COPY ./target/*.jar /app.jar
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "/app.jar"]
