@@ -48,9 +48,18 @@ The main goal of this project is to mantain a trustful and GitOps-compatible app
 Using Harness CIE and CD (both Next-Gen).
 
 I'll try my best to keep this project relevant, and independent.
+
 How? By making sure that all the files required to do the FULL Software LifeCycle is here.
 
 For example, that's what I have in mind for now:
+
+* Java source code;
+* Configuration files, where all sensitive and dynamic data are environment variables (application.properties, etc);
+* Configuration as Code;
+* Dockerfile;
+* Kubernetes Templates;
+* Helm Chart files, and all overrides that are required to build a Helm Chart as a final artifact;
+* 
 
 
 
