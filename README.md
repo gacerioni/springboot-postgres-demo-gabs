@@ -46,7 +46,7 @@
 The main goal of this project is to mantain a trustful and GitOps-compatible approach to a full CI/CD Pipeline.  
 Using Harness CIE and CD (both Next-Gen).
 
-**I'll try my best to keep this project relevant, and indepentent.  **
+**I'll** try my best to keep this project relevant, and indepentent.  
 **Always ready for Production Deployment (Continuous Delivery).**
 
 ### How? By making sure that all the files required to do the FULL Software LifeCycle is here.
