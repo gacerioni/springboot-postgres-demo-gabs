@@ -14,7 +14,7 @@
     <img src="images/harness_banner.jpeg" alt="Logo">
   </a>
 
-  <h3 align="center">Harness CD Current-Gen Universal API Caller - by Gabs the CSE</h3>
+  <h3 align="center">Harness CI/CD Next-Gen Java SpringBoot JPA DEMO - by Gabs the Creator</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -43,8 +43,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The main goal of this project is to mantain a trustful source of Python calling Harness APIs. This initial project will evolve to support all RESTful Methods.
-For now, this is a Project to call DELETE and help with a specific Customer use case.
+The main goal of this project is to mantain a trustful and GitOps-compatible approach to a full CI/CD Pipeline.
+Using Harness CIE and CD (both Next-Gen).
+
+I'll try my best to keep this project relevant, and independent.
+How? By making sure that all the files required to do the FULL Software LifeCycle is here.
+
+For example, that's what I have in mind for now:
+
+
+
 
 
 <!-- GETTING STARTED -->
