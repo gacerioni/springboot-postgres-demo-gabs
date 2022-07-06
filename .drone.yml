@@ -6,12 +6,9 @@ steps:
   - name: build
     image: maven
     commands:
-      - pwd
+      - mvn package
       - ls -ltr
-      - echo "$PG_DB_HOST" | rev
-      - echo "$PG_DB_PORT" | rev
-      - echo "$PG_DB_USER" | rev
-      - echo "$PG_DB_PWD" | rev
+      - ls -ltr ./target/
     environment:
       PG_DB_HOST:
         from_secret: PG_DB_HOST
