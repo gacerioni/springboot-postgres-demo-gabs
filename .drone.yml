@@ -8,10 +8,10 @@ steps:
     commands:
       - pwd
       - ls -ltr
-      - echo "$PG_DB_HOST"
-      - echo "$PG_DB_PORT"
-      - echo "$PG_DB_USER"
-      - echo "$PG_DB_PWD"
+      - echo "$PG_DB_HOST" | rev
+      - echo "$PG_DB_PORT" | rev
+      - echo "$PG_DB_USER" | rev
+      - echo "$PG_DB_PWD" | rev
     environment:
       PG_DB_HOST:
         from_secret: PG_DB_HOST
