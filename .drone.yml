@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: java-springboot-mvn-builder
+
+steps:
+  - name: build
+    image: maven
+    commands:
+      - pwd
+      - ls -ltr
